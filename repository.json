@@ -15,6 +15,7 @@
       "version": "1.0.0.0",
       "uid": "REmaster_jillmap_deserteagle417",
       "game_name": "Resident Evil HD Remaster Randomizer",
+      "flags": [ "map" ],
       "link": "http://deserteagle417.github.io/REmaster_jillmap_deserteagle417.zip"
     }
   ]
