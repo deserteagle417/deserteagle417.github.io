@@ -12,7 +12,7 @@
     {
       "name": "REmaster Randomizer - Map Tracker - Jill",
       "author": "deserteagle417",
-      "version": "2.0.0.0",
+      "version": "2.1.0.0",
       "uid": "REmaster_jillmap_deserteagle417",
       "game_name": "Resident Evil HD Remaster Randomizer",
       "flags": [ "map", "pins" ],
