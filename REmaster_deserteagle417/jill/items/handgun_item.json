@@ -1,0 +1,18 @@
+[
+// Handgun
+  {
+    "name": "Handgun",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/handgun.png",
+        "codes": "handgun,hg"
+      },
+      {
+        "img": "images/handgun.png",
+        "codes": "hg2"
+      }
+      ]
+  }
+]

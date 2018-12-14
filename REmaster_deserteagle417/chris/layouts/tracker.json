@@ -1,0 +1,378 @@
+﻿{
+	"shared_item_grid": {
+    	"type": "array",
+    	"orientation": "vertical",
+    	"margin": "0,0",
+      	"content": [
+        	{
+      		  	"type": "array",
+        		"orientation": "horizontal",
+        		"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "0,0",
+						"item_height": 32,
+						"item_width": 40,
+						"rows": [
+							[ "sandm", "metal", "stonebox", "doom1", "doom2", "labkey", "fuel" ],
+							[ "handgun", "shotgun", "assault", "magnum", "selfdefgun", "smallkey", "smallkeyused" ],
+							[ "arrow", "eyemask", "mouthmask", "nosemask", "maskbox", "chemical", "hook" ],
+							[ "curse", "whistle", "shieldkey", "helmet", "gembox", "music", "battery" ],
+							[ "blue", "yellow", "wind", "moon", "star", "sun", "cylinder" ],
+							[ "001key", "003key", "gallerykey", "croomkey", "redbook", "square", "hex" ]
+							]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "0,0",
+						"item_height": 32,
+						"item_width": 40,
+						"rows": [ 
+							[ "richard" ],
+							[ "yawn" ],
+							[ "plant42" ],
+							[ "modisk" ],
+							[ "" ],
+							[ "gomode" ]
+						]
+					}
+				]
+			}		  
+		]
+    },
+	"tracker_capture_item": {
+		"type": "container",
+		"content": {
+			"type": "itemgrid",
+    		"h_alignment": "center",
+	    	"item_margin": "1,1",
+			"item_height": 32,
+			"item_width": 40,
+	    	"rows": [
+				[ "sandm", "metal", "stonebox", "doom1", "doom2", "labkey", "fuel" ],
+				[ "bsg", "glauncher", "magnum", "selfdefgun", "lighter", "chemical", "hook" ],
+				[ "arrow", "eyemask", "mouthmask", "nosemask", "maskbox", "folder", "pages" ],
+				[ "box", "redgem", "curse", "whistle", "shieldkey", "helmet", "battery" ],
+				[ "blue", "yellow", "wind", "moon", "star", "sun", "cylinder" ],
+				[ "001key", "003key", "gallerykey", "croomkey", "redbook", "square", "hex" ]
+			]
+ 		}
+ 	},
+	"difficulty_select": {
+ 		"type": "container",
+ 		"content": {
+	    	"type": "itemgrid",
+    		"h_alignment": "center",
+    		"item_margin": "1,1",
+			"item_height": 33,
+		  	"item_width": 132,
+  			"rows": [
+				[ "normal" ]
+			]
+  		}
+	},
+  	"tracker_default": {
+  		"type": "container",
+	    "content": {
+    		"type": "dock",
+  		    "dropshadow": true,
+	    	"content": [
+        		{
+      				"type": "dock",
+    	    		"dock": "bottom",
+  	      			"h_alignment": "stretch",
+	        		"content": [
+          				{
+			  				"type": "dock",
+							"dock": "left",
+							"content": [
+								{
+									"type": "group",
+									"header": "Items",
+									"background": "#000000",
+									"dock": "top",
+									"content": {
+					  					"type": "layout",
+						  				"key": "shared_item_grid"
+									}
+					  			},
+					  			{
+									"type": "group",
+									"header": "Difficulty",
+									"background": "#000000",
+									"dock": "bottom",
+									"content": {
+										"type": "layout",
+										"key": "difficulty_select"
+									}
+					  			}
+							]
+	  	        		},
+			            {
+        		    		"type": "group",
+          	  				"header": "Pinned Locations",
+        	    			"content": {
+      	        				"type": "recentpins",
+    	          				"style": "wrap",
+  	            				"h_alignment": "stretch",
+	              				"v_alignment": "stretch",
+              					"orientation": "horizontal",
+            	  				"compact": true
+          	    			}
+        	    		}
+	      	    	]
+    	    	},
+		  	    {
+	        		"type": "tabbed",
+          			"tabs": [
+			  			{
+      	      				"title": "Mansion",
+    	          			"content": {
+  	            				"type": "tabbed",
+								"tabs": [
+					  				{
+										"title": "B1 and 1F",
+										"content": {
+											"type": "map",
+											"maps": [
+												"mansionB1", "mansionF1"
+											]
+										}
+									},
+							  		{
+										"title": "2F and 3F",
+										"content": {
+											"type": "map",
+											"maps": [
+												"mansionF2", "mansionF3"
+											]
+										}
+							 		}
+								]
+  	            			}
+	            		},
+            			{
+            	  			"title": "Courtyard",
+          	    			"content": {
+        	        			"type": "tabbed",
+								"tabs": [
+									{
+										"title": "Outside",
+										"content": {
+											"type": "map",
+											"maps": [
+						  						"courtyardF1"
+											]
+										}
+						  			},
+						  			{
+										"title": "Underground",
+										"content": {
+											"type": "map",
+											"maps": [
+												"courtyardB2", "courtyardB1"
+											]
+										}
+					  				}
+						  		]
+            				}
+          				},
+        			    {
+      	      				"title": "Guardhouse",
+    	          			"content": {
+  	            				"type": "tabbed",
+								"tabs": [
+					  				{
+										"title": "Residence",
+										"content": {
+											"type": "map",
+											"maps": [
+							  					"guardhouseF1"
+											]
+										}
+						  			},
+						  			{
+										"title": "Aqua Ring",
+										"content": {
+											"type": "map",
+											"maps": [
+							  					"guardhouseB1", "guardhouseB2"
+											]
+										}
+						  			}
+						  		]
+  							}
+	            		},
+            			{
+ 			           		"title": "Laboratory",
+            			  	"content": {
+            	  				"type": "tabbed",
+								"tabs": [
+						  			{
+										"title": "B2 and B3",
+										"content": {
+											"type": "map",
+											"maps": [
+						  						"laboratoryB2", "laboratoryB3"
+						  					]
+										}
+					  				}
+								]
+            				}
+          				}
+        			]
+      			}
+    		]
+  		}
+	},
+	"tracker_horizontal": {
+		"type": "container",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "left",
+					"content": [
+						{
+							"type": "group",
+							"header": "Items",
+							"background": "#000000",
+							"dock": "top",
+							"content": {
+								"type": "layout",
+								"key": "shared_item_grid"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Difficulty",
+							"background": "#000000",
+							"dock": "top",
+							"content": {
+								"type": "layout",
+								"key": "difficulty_select"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Pinned Locations",
+							"content": {
+								"type": "recentpins",
+								"style": "wrap",
+								"h_alignment": "stretch",
+								"v_alignment": "stretch",
+								"orientation": "vertical",
+								"compact": true
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Mansion",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									{
+										"title": "B1 and 1F",
+										"content": {
+											"type": "map",
+											"maps": [
+												"mansionB1", "mansionF1"
+											]
+									  	}
+									},
+									{
+									  "title": "2F and 3F",
+									  "content": {
+										  "type": "map",
+										  "maps": [
+											  "mansionF2", "mansionF3"
+										  ]
+									  }
+									}
+								]
+							}
+						},
+						{
+							"title": "Courtyard",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									{
+										"title": "Outside",
+										"content": {
+										  "type": "map",
+										  "maps": [
+												"courtyardF1"
+										  ]
+									  }
+									},
+									{
+									  "title": "Underground",
+									  "content": {
+											"type": "map",
+											"maps": [
+												"courtyardB2", "courtyardB1"
+										  	]
+									  	}
+									}
+								]
+						  	}
+						},
+					  	{
+						  	"title": "Guardhouse",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									{
+									  "title": "Residence",
+									  "content": {
+										  	"type": "map",
+										  	"maps": [
+												"guardhouseF1"
+										  	]
+									  	}
+									},
+									{
+									  	"title": "Aqua Ring",
+									  	"content": {
+										  	"type": "map",
+										  	"maps": [
+												"guardhouseB1", "guardhouseB2"
+											]
+									  	}
+									}
+								]
+							}
+					  	},
+					  	{
+							"title": "Laboratory",
+							"content": {
+								"type": "tabbed",
+							  	"tabs": [
+									{
+									  	"title": "B2 and B3",
+									  	"content": {
+										  	"type": "map",
+										  	"maps": [
+												"laboratoryB2", "laboratoryB3"
+											]
+									  	}
+									}
+							  	]
+						  	}
+						}
+				  	]
+				}
+		  	]
+		}
+  	}
+}

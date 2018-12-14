@@ -1,0 +1,9 @@
+[
+    // Handgun
+    {
+        "name": "Handgun",
+        "type": "toggle",
+        "img": "images/handgun.png",
+        "codes": "handgun,hg"
+    }
+]

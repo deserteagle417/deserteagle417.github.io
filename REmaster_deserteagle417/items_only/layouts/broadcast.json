@@ -1,0 +1,36 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "margin": "0",
+    "content": [
+      {
+        "type": "array",
+        "dropshadow": true,
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "3,2.5",
+            "item_width": 40,
+            "item_height":32,
+            "rows": [
+              [ "sandm", "metal", "stonebox", "doom1"],
+              [ "doom2", "fuel", "labkey", "gomode" ],
+              [ "knife", "handgun", "magnum", "selfdefgun"], 
+              [ "shotgun", "assault", "glauncher", "rocket" ],
+              [ "curse", "whistle", "shieldkey", "helmet" ],
+              [ "blue", "yellow" , "gembox", "music"],
+              [ "lighter", "hook", "chemical", "arrow" ],
+              [ "eyemask", "mouthmask", "nosemask", "maskbox" ],
+              [ "wind", "moon", "star", "sun" ],
+              [ "001key", "003key", "gallerykey", "croomkey" ],
+              [ "battery", "redbook", "smallkey", "smallkeyused" ],
+              [ "cylinder", "square", "hex", "modisk" ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

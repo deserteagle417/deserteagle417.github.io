@@ -1,0 +1,74 @@
+[
+  {
+    "name": "mansionB1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/MansionB1.png"
+  },
+  {
+    "name": "mansionF1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/MansionF1.png"
+  },
+  {
+    "name": "mansionF2",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/MansionF2.png"
+  },
+  {
+    "name": "mansionF3",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/MansionF3.png"
+  },
+  {
+    "name": "courtyardF1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/CourtyardF1.png"
+  },
+  {
+    "name": "courtyardB1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/CourtyardB1.png"
+  },
+  {
+    "name": "courtyardB2",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/CourtyardB2.png"
+  },
+  {
+    "name": "guardhouseF1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/GuardhouseF1.png"
+  },
+  {
+    "name": "guardhouseB1",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/GuardhouseB1.png"
+  },
+  {
+    "name": "guardhouseB2",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/GuardhouseB2.png"
+  },
+  {
+    "name": "laboratoryB2",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/LaboratoryB2.png"
+  },
+  {
+    "name": "laboratoryB3",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/LaboratoryB3.png"
+  }
+]
