@@ -1,9 +1,0 @@
-v2.0.0.0:
--No longer using the LttP chests as item icons. The icons now represent
-the actual item seen in the rooms, or are related to how the item is
-obtained.
--Fixed the name of the guardhouse gallery when pinned.
-
-v2.1.0.0
--Added hard mode!!!
--Added a missing item in normal mode.

@@ -10,13 +10,27 @@
       "link": "http://deserteagle417.github.io/REmaster_itemsonly_deserteagle417.zip"
     },
     {
-      "name": "REmaster Randomizer - Map Tracker - Jill",
+      "name": "REmaster Randomizer - Item and Map Tracker",
       "author": "deserteagle417",
-      "version": "2.1.0.0",
-      "uid": "REmaster_jillmap_deserteagle417",
+      "version": "3.0.0.0",
+      "uid": "REmaster_deserteagle417",
       "game_name": "Resident Evil HD Remaster Randomizer",
       "flags": [ "map", "pins" ],
-      "link": "http://deserteagle417.github.io/REmaster_jillmap_deserteagle417.zip"
+      "required_app_version": "2.1.0.0",
+      "link": "http://deserteagle417.github.io/REmaster_deserteagle417.zip",
+      "variants": [
+        {
+          "name": "Items Only"
+        },
+        {
+          "name": "Jill Map Tracker",
+          "flags": ["map","pins"]
+        },
+        {
+          "name": "Chris Map Tracker",
+          "flags": ["map","pins"]
+        }
+      ]
     }
   ]
 }
