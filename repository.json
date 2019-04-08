@@ -32,6 +32,23 @@
           "flags": ["map","pins","chathud"]
         }
       ]
+    },
+    {
+      "name": "RE2 Randomizer - Item and Map Tracker",
+      "author": "deserteagle417",
+      "version": "1.0.0",
+      "uid": "RE2classic_deserteagle417",
+      "game_name": "Resident Evil 2",
+      "required_app_version": "2.1.0.0",
+      "link": "http://deserteagle417.github.io/RE2classic_deserteagle417.zip",
+      "variants": [
+        {
+          "name": "Item Tracker"
+        },
+        {
+          "name": "Item & Weapon Tracker"
+        }
+      ]
     }
   ]
 }
