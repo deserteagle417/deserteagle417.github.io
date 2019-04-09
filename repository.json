@@ -36,17 +36,24 @@
     {
       "name": "RE2 Randomizer - Item Tracker",
       "author": "deserteagle417",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "uid": "RE2classic_deserteagle417",
       "game_name": "Resident Evil 2",
+      "flags": [ "chathud" ],
       "required_app_version": "2.1.0.0",
       "link": "http://deserteagle417.github.io/RE2classic_deserteagle417.zip",
       "variants": [
         {
-          "name": "Item Tracker"
+          "name": "Item Tracker",
+          "flags": [ "chathud" ]
         },
         {
-          "name": "Item & Weapon Tracker"
+          "name": "Item & Weapon Tracker",
+          "flags": [ "chathud" ]
+        },
+        {
+          "name": "Expanded Item & Weapon Tracker",
+          "flags": [ "chathud" ]
         }
       ]
     }
