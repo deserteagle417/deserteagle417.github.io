@@ -56,6 +56,26 @@
           "flags": [ "chathud" ]
         }
       ]
+    },
+    {
+      "name": "ALttPR Glitched Modes",
+      "author": "deserteagle417",
+      "version": "1.0.0",
+      "uid": "alttpr_glitched_deserteagle417",
+      "game_name": "A Link to the Past Randomizer",
+      "flags": [ "chathud" ],
+      "required_app_version": "2.3.6.5",
+      "link": "http://deserteagle417.github.io/RE2classic_deserteagle417.zip",
+      "variants": [
+        {
+          "name": "Standard Map Tracker",
+          "flags": [ "map", "pins", "chathud", "autotracker" ]
+        },
+        {
+          "name": "Keysanity Map Tracker",
+          "flags": [ "map", "pins", "chathud", "autotracker" ]
+        }
+      ]
     }
   ]
 }
