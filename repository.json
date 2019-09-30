@@ -63,7 +63,7 @@
       "version": "1.0.0",
       "uid": "alttpr_glitched_deserteagle417",
       "game_name": "A Link to the Past Randomizer",
-      "flags": [ "chathud" ],
+      "flags": [ "map", "pins", "chathud", "autotracker" ],
       "required_app_version": "2.3.6.5",
       "link": "http://deserteagle417.github.io/RE2classic_deserteagle417.zip",
       "variants": [
