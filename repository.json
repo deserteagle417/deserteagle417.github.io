@@ -60,7 +60,7 @@
     {
       "name": "ALTTPR Glitched Modes",
       "author": "deserteagle417",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "uid": "alttpr_glitches_deserteagle417",
       "game_name": "A Link to the Past Randomizer",
       "flags": [ "map", "pins", "chathud", "autotracker" ],
